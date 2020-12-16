@@ -69,7 +69,7 @@
     $(".hero-items").owlCarousel({
         loop: true,
         margin: 0,
-        nav: true,
+        nav: false,
         items: 1,
         dots: true,
         animateOut: 'fadeOut',
@@ -159,26 +159,35 @@
         $('.overlay, #sekil').fadeOut();
     })
 
-    
-      $('.tabs_content_tab_slider').slick({
+
+    $('.tabs_nav_tab').on('click', function () {
+        $('.tabs_content_tab').removeClass('active');
+        $('.tabs_content_tab[data-id="' + $(this).attr('data-id') + '"]').addClass('active');
+    })
+
+    $('.single-item2').slick({
+        arrows: true,
+    }
+    );
+
+    $('.tabs_content_tab_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: true,
         dots: true,
         /* focusOnSelect: true */
-      }
-      );
-    
-    
-    
-      $('.tabs_nav_tab').on('click', function () {
-        $('.tabs_content_tab').removeClass('active');
-        $('.tabs_content_tab[data-id="' + $(this).attr('data-id') + '"]').addClass('active');
-      })
+    }
+    );
 
-    $('.single-item2').slick({
+    $('.partners_slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 2,
         arrows: true,
-      }
-      );
+        dots: true,
+        /* focusOnSelect: true */
+    }
+    );
+
+
 
 })(jQuery);
