@@ -69,7 +69,7 @@
     $(".hero-items").owlCarousel({
         loop: true,
         margin: 0,
-        nav: false,
+        nav: true,
         items: 1,
         dots: true,
         animateOut: 'fadeOut',

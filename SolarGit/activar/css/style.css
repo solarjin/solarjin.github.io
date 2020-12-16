@@ -519,32 +519,13 @@ ol {
 	padding-bottom: 470px; */
 }
 
-.home-star p {
-	text-align: center;
-	
-}
-
-.home-star img {
-	max-width: 25%;
-	margin: 15px 0 30px;
-}
-
-@media (max-width: 500px) {
-	.home-star img {
-		max-width: 55%;
-	}
-
-}
-
 .home-section .section-title {
 	text-align: center;
 	margin-bottom: 36px;
 }
 
-
 .home-section .section-title p {
 	color: #ffffff;
-	font-size: 18px;
 }
 
 .home-section .toggle-option {
@@ -705,15 +686,6 @@ ol {
 	border-radius: 6px;
 	padding: 10px;
 	/* position: relative; */
-}
-
-@media (max-width:550px) {
-	.hero-direction {
-		width: 360px;
-		right: 7px;
-		top: 70%;
-	}
-	
 }
 
 .hero-direction-slide {
@@ -1381,9 +1353,8 @@ a.button9:active {
 .tabs_nav_tab {
     width: 100%;
     height: 50px;
-	border: 1px solid white;
-	color: white;
-    font-size: 16px;
+    border: 1px solid white;
+    font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
@@ -1438,7 +1409,7 @@ a.button9:active {
 
 .tabs_content_tab_slider {
     position: relative;
-    width: 900px;
+    width: 800px;
     height: 500px;
     margin: 0 0px;
     padding: 0 0px;
@@ -1456,16 +1427,11 @@ a.button9:active {
 
 .price-content {
     width: 100px;
-    height: 450px;
+    height: 400px;
     margin: 10px 15px;
     background-color: rgba(46, 45, 51, 0.685);
     border: 1px solid rgb(252, 252, 252);
     padding: 20px 20px 20px 20px;
-}
-
-.price-content hr {
-    background-color: white;
-
 }
 
 .price-title {
@@ -1480,8 +1446,7 @@ a.button9:active {
     font-size: 32px;
     font-weight: 600;
     margin: 16px 5px 25px 5px;
-	text-align: left;
-	color: rgb(33, 47, 240);
+    text-align: left;
 }
 
 .price-descr {
@@ -1505,8 +1470,7 @@ a.button9:active {
 .price-foot {
     margin: 50px;
     bottom: 5px;
-	text-align: center;
-	
+    text-align: center;
 }
 
 .price-foot input[type="submit"] {
