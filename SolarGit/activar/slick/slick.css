@@ -56,7 +56,7 @@
 
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
 }
 .slick-track:before,
 .slick-track:after
@@ -73,6 +73,8 @@
 {
     visibility: hidden;
 }
+
+
 
 .slick-slide
 {

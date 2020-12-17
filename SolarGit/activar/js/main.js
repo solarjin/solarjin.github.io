@@ -161,8 +161,33 @@
 
 
     $('.tabs_nav_tab').on('click', function () {
-        $('.tabs_content_tab').removeClass('active');
+        $('.tabs_content_tab, .tabs_nav_tab').removeClass('active');
         $('.tabs_content_tab[data-id="' + $(this).attr('data-id') + '"]').addClass('active');
+        $('.tabs_nav_tab[data-id="' + $(this).attr('data-id') + '"]').addClass('active');
+
+        $('.tabs_content_tab.active .tabs_content_tab_slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            responsive: [{
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+    
+            ]
+        }
+        );
     })
 
     $('.single-item2').slick({
@@ -170,23 +195,66 @@
     }
     );
 
-    $('.tabs_content_tab_slider').slick({
+    $('.tabs_content_tab.active .tabs_content_tab_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: true,
-        dots: true,
-        /* focusOnSelect: true */
+        arrows: false,
+        dots: false,
+        responsive: [{
+            breakpoint: 1100,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        }
+
+        ]
+
     }
     );
+
 
     $('.partners_slider').slick({
         slidesToShow: 4,
         slidesToScroll: 2,
-        arrows: true,
-        dots: true,
-        /* focusOnSelect: true */
-    }
-    );
+        arrows: false,
+        dots: false,
+        infinite: true,
+        responsive: [{
+            breakpoint: 1100,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            }
+        }
+
+        ]
+
+    });
+
+    $('.tabz_nav_tab').on('click', function () {
+        $('.tabz_content_tab, .tabz_nav_tab').removeClass('active');
+        $('.tabz_content_tab[data-id="' + $(this).attr('data-id') + '"]').addClass('active');
+        $('.tabz_nav_tab[data-id="' + $(this).attr('data-id') + '"]').addClass('active');
+
+        
+    })
+
+
 
 
 
