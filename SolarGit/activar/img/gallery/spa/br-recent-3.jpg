@@ -1,0 +1,86 @@
+     <li><a href="#">Gym Fitness</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="col-lg-3">
+                    <div class="footer-widget">
+                        <h5>Получить консультацию</h5>
+                        <ul class="footer-info">
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <span>Телефон:</span>
+                                (812) 293-51-50
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o"></i>
+                                <span>Email:</span>
+                                sozvezdie-fitnessclub@mail.ru
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span>Адрес</span>
+                                Санкт-Петербург, проспект Энгельса, д. 97.
+
+                                15 минут от м. Озерки, м. Удельная.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  <div class="copyright-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="ct-inside">
+                            
+                            Авторское право &copy;
+                            <script>document.write(new Date().getFullYear());</script> Все права защищены | Этот
+                           сайт сделан <i class="fa fa-heart-o" aria-hidden="true"></i> с <a
+                                href="https://colorlib.com" target="_blank">SATORY</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="https://sozvezdie.fitbase.io/vue-resources/schedule-widget/init.js" defer></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript">
+        // Функция ymaps.ready() будет вызвана, когда
+        // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+        ymaps.ready(function () {
+            var myMap = new ymaps.Map('map', {
+                center: [60.026576, 30.320333],
+                zoom: 14
+            }, /* {
+				searchControlProvider: 'noSuggestPanel'
+			} */),
+
+                // Создаём макет содержимого.
+                MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+                    '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+                ),
+
+                myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                    hintContent: 'Спортивно-оздоровительный центр',
+                    balloonContent: 'Фитнес клуб "Созвездие"'
+                }, {
+                    // Опции.
+                    // Необходимо указать данный тип макета.
+                    iconLayout: 'default#image',
+                    // Своё изображение иконки метки.
+                    iconImageHref: 'img/logo-map.png',
+                    // Размеры метки.
+                    iconImageSiz
