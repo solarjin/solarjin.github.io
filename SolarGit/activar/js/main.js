@@ -158,11 +158,11 @@
      // pop 1
      
     $('[data-podal=pop_gym]').on('click', function () {
-        $('.overlay, #pop-gym').css("display", "flex").hide().fadeIn();
+        $('.overlay, #pop_gym').css("display", "flex").hide().fadeIn();
     });
 
     $('.podal_close').on('click', function () {
-        $('.overlay, #pop-gym').fadeOut();
+        $('.overlay, #pop_gym').fadeOut();
     });
 
     // pop 2
@@ -195,7 +195,7 @@
         $('.overlay, #pop_beauty').fadeOut();
     });
 
-    // pop 4
+    // pop 5
      
     $('[data-podal=pop_spa]').on('click', function () {
         $('.overlay, #pop_spa').css("display", "flex").hide().fadeIn();
@@ -205,6 +205,45 @@
         $('.overlay, #pop_spa').fadeOut();
     });
 
+    // pop 6
+     
+    $('[data-podal=pop_form]').on('click', function () {
+        $('.overlay, #pop_form').css("display", "flex").hide().fadeIn();
+    });
+
+    $('.podal_close').on('click', function () {
+        $('.overlay, #pop_form').fadeOut();
+    });
+
+     // pop 7
+     
+     $('[data-podal=pop_group]').on('click', function () {
+        $('.overlay, #pop_group').css("display", "flex").hide().fadeIn();
+    });
+
+    $('.podal_close').on('click', function () {
+        $('.overlay, #pop_group').fadeOut();
+    });
+
+     // pop 8
+     
+     $('[data-podal=pop_personal]').on('click', function () {
+        $('.overlay, #pop_personal').css("display", "flex").hide().fadeIn();
+    });
+
+    $('.podal_close').on('click', function () {
+        $('.overlay, #pop_personal').fadeOut();
+    });
+
+     // pop 9
+     
+     $('[data-podal=pop_nutr]').on('click', function () {
+        $('.overlay, #pop_nutr').css("display", "flex").hide().fadeIn();
+    });
+
+    $('.podal_close').on('click', function () {
+        $('.overlay, #pop_nutr').fadeOut();
+    });
 
 
    /*  $('.podal_close').on('click', function () {
@@ -213,9 +252,6 @@
 
 
 // Modal end
-
-
-
 
 
     $('.tabs_nav_tab').on('click', function () {
