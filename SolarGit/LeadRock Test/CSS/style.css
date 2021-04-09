@@ -1,0 +1,3409 @@
+/*----------------------------------------*/
+/*                BASE
+/*----------------------------------------*/
+
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* --------------------ТАЙМЕР--------------------- */
+
+.nedrcom-pevudindo {
+	position: absolute;
+	bottom: 10%;
+	right: 10px;
+	width: 271px;
+	height: 95px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 20px 0 0px 20px;
+	overflow: hidden;
+}
+
+#clock {
+	position: absolute;
+	top: 19%;
+	left: 18px;
+}
+
+.endoagvanud {
+	position: absolute;
+	top: 17px;
+	right: 10px;
+	color: #131414;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	margin: 0px 0 7px 0;
+}
+
+.asdupog {
+	width: 60px;
+	height: 55px;
+	margin: 0px 8px;
+	background-color: #FFD600;
+}
+
+.asdupog h2 {
+	position: relative;
+	margin: 0;
+	top: 5px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.countdown {
+	position: absolute;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.time small {
+	font-size: 26px;
+}
+
+
+/* ---------------MOBILE -----------------------*/
+/* ----------------------------------------*/
+
+@media only screen and (min-width: 1224px) {
+
+	.header-area {
+		position: absolute;
+		width: 1440px;
+		height: 70px;
+		left: 0px;
+		top: 0px;
+		background: #F1DDF4;
+	}
+
+	.header-area h1 {
+		position: absolute;
+		width: 100%;
+		height: 31px;
+		padding: 22px 0 22px 0;
+		margin: 0;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 30px;
+		/* identical to box height */
+		text-align: center;
+		text-transform: uppercase;
+		color: #565860;
+	}
+
+	.main-section {
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		left: 0px;
+		top: 72px;
+	}
+
+	.vektor1 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 12.72%;
+		z-index: 2;
+	}
+
+	.vektor2 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 17%;
+		z-index: 2;
+	}
+
+
+	.woman-smile-main {
+		position: absolute;
+		width: 612px;
+		height: 400px;
+		left: 98px;
+		top: 34px;
+		background-image: url(../img/woman-smiling-main-big.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+
+	.slider_one {
+		position: relative;
+		height: 100px;
+		left: 13em;
+		top: 31em;
+		max-width: 140px;
+	}
+
+	.wedding {
+		position: relative;
+		top: 10%;
+		left: 26%;
+		width: 210px;
+		height: 69px;
+
+	}
+
+	.wedding__item {
+		height: 60px;
+		width: 60px;
+		padding: 0px;
+		margin: 5px;
+	}
+
+	.slick-slide {
+		width: 60px !important;
+	}
+
+	.wedding__item img {
+		position: relative;
+		max-width: 60px;
+	}
+
+	.slick-list {
+		overflow: hidden;
+	}
+
+	.wedding .slick-arrow {
+		position: absolute;
+		top: 50%;
+		margin: 0;
+		z-index: 19999;
+		font-size: 0;
+		width: 39px;
+		height: 39px;
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.wedding .slick-arrow.slick-prev {
+		left: -50px;
+		opacity: 1;
+		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+	}
+
+	.wedding .slick-arrow.slick-next {
+		right: -50px;
+		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+	}
+
+
+	.rectangle-858 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 100px;
+		top: 281px;
+		background: #923DA0;
+		border-radius: 0px;
+
+	}
+
+	.rectangle-859 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 100px;
+		top: 346px;
+		background: #923DA0;
+		border-radius: 0px;
+	}
+
+	h3 {
+		/* быстрая установка */
+		position: relative;
+		left: 15px;
+		vertical-align: middle;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 4.5%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	.about {
+		position: absolute;
+		top: 0;
+		left: 50em;
+		display: flex;
+		flex-direction: column;
+		height: 340px;
+		width: 500px;
+		border-bottom: 2px solid #DCDCDC;
+		padding-bottom: 0px;
+		margin: 0;
+	}
+
+	.about h2 {
+		position: absolute;
+		width: 422px;
+		height: 45px;
+		left: 0;
+		top: 99px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 33px;
+		line-height: 40px;
+		text-transform: uppercase;
+		color: #131414;
+		margin: 0;
+	}
+
+	.about h4 {
+		position: absolute;
+		width: 286px;
+		height: 23px;
+		left: 0;
+		top: 144px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 127.4%;
+		margin: 0;
+		color: #131414;
+	}
+
+	.about p {
+		position: absolute;
+		width: 506px;
+		height: 69px;
+		left: 0;
+		top: 158px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 127.4%;
+		color: #131414;
+	}
+
+	.rating {
+		position: relative;
+		width: 250px;
+		height: 40px;
+		top: 17em;
+		left: 0em;
+		display: inline-flex;
+	}
+
+	#stars {
+		position: absolute;
+		width: 41.48px;
+		height: 18.58px;
+		top: 0;
+		left: 0px;
+		padding: 0 10px 0 0;
+	}
+
+	.stat {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		height: 100%;
+	}
+
+	.stat p {
+		position: absolute;
+		top: 0;
+		left: 17em;
+		height: 20px;
+		margin: 0;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px;
+		/* letter-spacing: 0em; */
+		text-align: left;
+		color: #727272;
+	}
+
+	#reit {
+		position: absolute;
+		width: 20px;
+		top: 0;
+		left: 4em;
+	}
+
+	#reviews {
+		position: absolute;
+		width: 7em;
+		left: 6em;
+		top: 0;
+		padding: 0 10px 0 20px;
+		margin: 0 10px;
+		border-left: 1px solid #727272;
+		border-right: 1px solid #727272;
+	}
+
+	.delivery {
+		position: absolute;
+		width: 40px;
+		height: 20px;
+		top: 19em;
+		left: 0em;
+		display: inline-flex;
+	}
+
+	#box {
+		position: absolute;
+		top: 0px;
+		left: 0;
+		Width: 21.94px;
+		Height: 23.41px;
+	}
+
+	.delivery h4 {
+		position: absolute;
+		width: 212px;
+		height: 22px;
+		left: 2em;
+		top: 0;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #131414;
+	}
+
+	/* .price {
+		position: absolute;
+		left: 908.64px;
+		top: 355px;
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		width: 420px;
+		height: 168px;
+	} */
+
+	.cost {
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+		height: 10%;
+	}
+
+	#cost_new {
+		position: absolute;
+		width: 198px;
+		height: 59px;
+		left: 791px;
+		top: 381px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 59px;
+		text-transform: uppercase;
+		margin: 0;
+		color: #131414;
+	}
+
+	#cost_old {
+		position: absolute;
+		left: 782px;
+		top: 325px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+		text-align: end;
+		color: #727272;
+		margin: 0;
+		padding: 20px 20px 0;
+		text-decoration: line-through 2px #FF0000;
+	}
+
+	#discount {
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		left: 62em;
+		top: 351px;
+	}
+
+	/* ---------------Selector------------- */
+
+	.numeric {
+		position: absolute;
+		width: 40px;
+		height: 20px;
+		top: 26em;
+		left: 57em;
+		margin: 20px 0 0;
+	}
+
+	.row {
+		position: absolute;
+		text-align: left;
+		width: 140px;
+		margin: 0 auto;
+		padding: 0;
+		top: 22px;
+		left: 15px;
+	}
+
+	.row p {
+		position: absolute;
+		left: -7em;
+		top: -10px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #727272;
+	}
+
+	.number {
+		display: inline-block;
+		position: relative;
+		width: 113.55px;
+	}
+
+	.number input[type="number"] {
+		display: block;
+		height: 37px;
+		line-height: 32px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		border: 1px solid #C4C4C4;
+		border-radius: 30px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		color: #565860;
+		-moz-appearance: textfield;
+		-webkit-appearance: textfield;
+		appearance: textfield;
+	}
+
+	.number input[type="number"]::-webkit-outer-spin-button,
+	.number input[type="number"]::-webkit-inner-spin-button {
+		display: none;
+	}
+
+	.number-minus {
+		font-family: Montserrat;
+		position: absolute;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 30px 0px 0px 30px;
+		font-size: 22px;
+		font-weight: 400;
+	}
+
+	.number-plus {
+		font-family: Montserrat;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 0px 30px 30px 0px;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.button {
+		position: absolute;
+		left: 794px;
+		top: 524px;
+		width: 257px;
+		height: 59px;
+		display: inline-flex;
+		border-radius: 1px;
+		background-color: #FF6B00;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 28px;
+		padding: 20px;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 0;
+		align-items: center;
+	}
+
+	#cost_new_w {
+    position: absolute;
+	left: 0;
+	top: 20em;
+	}
+
+	#cost_old_two {
+	position: absolute;
+	left: 0;
+	top: 20em;
+	}
+
+	.button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+
+	.button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	}
+
+	.button:hover span {
+		padding-right: 25px;
+	}
+
+	.button:hover span:after {
+		opacity: 1;
+		right: 0;
+	}
+
+	.button span {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	/* --------------------ТАЙМЕР--------------------- */
+
+	.nedrcom-pevudindo {
+		position: absolute;
+		top: 325px;
+		left: 1050px;
+		width: 271px;
+		height: 95px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 20px 0 0px 20px;
+		overflow: hidden;
+	}
+
+	#clock {
+		position: absolute;
+		top: 19%;
+		left: 18px;
+	}
+
+	.endoagvanud {
+		position: absolute;
+		top: 17px;
+		right: 10px;
+		color: #131414;
+		font-family: "Montserrat", sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		margin: 0px 0 7px 0;
+	}
+
+	.asdupog {
+		width: 60px;
+		height: 55px;
+		margin: 0px 8px;
+		background-color: #FFD600;
+	}
+
+	.asdupog h2 {
+		position: relative;
+		margin: 0;
+		top: 5px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 30px;
+		text-transform: uppercase;
+	}
+
+	.countdown {
+		position: absolute;
+		right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.time small {
+		font-size: 26px;
+	}
+
+
+	.guide {
+		position: absolute;
+		top: 38em;
+		left: 0px;
+		width: 420px;
+		height: 120px;
+	}
+
+	.guide h2 {
+		position: relative;
+		width: 723px;
+		height: 38px;
+		left: 10em;
+		top: 10px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 12%;
+		/* identical to box height, or 38px */
+		text-transform: uppercase;
+		color: #181A19;
+	}
+
+	.woman-smile-two {
+		position: absolute;
+		width: 776px;
+		height: 572px;
+		left: 0px;
+		top: 695px;
+		background-position: center;
+		background-image: url(/img/woman-smiling-guide-big.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.guide-list {
+		position: absolute;
+		width: 664px;
+		height: 572px;
+		left: 776px;
+		top: 695px;
+		background: #F4C4FC;
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		align-content: space-evenly;
+	}
+
+	.rec {
+		width: 511px;
+        height: 70px;
+		margin: 20px 0;
+		background: #FFFFFF;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+		transform: translate(-210px, -0px);
+		border-radius: 241px;
+	}
+
+	.rec img {
+		position: relative;
+		right: 0;
+		top: 8px;
+		width: 115px;
+		height: 115px;
+		transform: translate(-40px, -3px);
+	}
+
+	.rec h2 {
+		position: relative;
+		top: 32%;
+		left: -0.8em;
+		width: 38px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 49px;
+		line-height: 60px;
+		margin: 0 10px 0 20px;
+		color: #923DA0;
+	}
+
+	.rec p {
+		position: relative;
+		top: 42%;
+		left: -2.2em;
+		width: 286px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0;
+		color: #181A19;
+	}
+
+}
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1223px) {
+	.header-area {
+		position: absolute;
+		width: 1440px;
+		height: 70px;
+		left: 0px;
+		top: 0px;
+		background: #F1DDF4;
+	}
+
+	.header-area h1 {
+		position: absolute;
+		width: 100%;
+		height: 31px;
+		padding: 22px 0 22px 0;
+		margin: 0;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 30px;
+		/* identical to box height */
+		text-align: center;
+		text-transform: uppercase;
+		color: #565860;
+	}
+
+	.main-section {
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		left: 0px;
+		top: 72px;
+	}
+
+	.vektor1 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 12.72%;
+		z-index: 2;
+	}
+
+	.vektor2 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 17%;
+		z-index: 2;
+	}
+
+
+	.woman-smile-main {
+		position: absolute;
+		width: 612px;
+		height: 400px;
+		left: 98px;
+		top: 34px;
+		background-image: url(../img/woman-smiling-main-big.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+
+	.slider_one {
+		position: relative;
+		height: 100px;
+		left: 13em;
+		top: 31em;
+		max-width: 140px;
+	}
+
+	.wedding {
+		position: relative;
+		top: 10%;
+		left: 26%;
+		width: 210px;
+		height: 69px;
+
+	}
+
+	.wedding__item {
+		height: 60px;
+		width: 60px;
+		padding: 0px;
+		margin: 5px;
+	}
+
+	.slick-slide {
+		width: 60px !important;
+	}
+
+	.wedding__item img {
+		position: relative;
+		max-width: 60px;
+	}
+
+	.slick-list {
+		overflow: hidden;
+	}
+
+	.wedding .slick-arrow {
+		position: absolute;
+		top: 50%;
+		margin: 0;
+		z-index: 19999;
+		font-size: 0;
+		width: 39px;
+		height: 39px;
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.wedding .slick-arrow.slick-prev {
+		left: -50px;
+		opacity: 1;
+		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+	}
+
+	.wedding .slick-arrow.slick-next {
+		right: -50px;
+		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+	}
+
+
+	.rectangle-858 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 100px;
+		top: 281px;
+		background: #923DA0;
+		border-radius: 0px;
+
+	}
+
+	.rectangle-859 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 100px;
+		top: 346px;
+		background: #923DA0;
+		border-radius: 0px;
+	}
+
+	h3 {
+		/* быстрая установка */
+		position: relative;
+		left: 15px;
+		vertical-align: middle;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 4.5%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	.about {
+		position: absolute;
+		top: 0;
+		left: 50em;
+		display: flex;
+		flex-direction: column;
+		height: 340px;
+		width: 500px;
+		border-bottom: 2px solid #DCDCDC;
+		padding-bottom: 0px;
+		margin: 0;
+	}
+
+	.about h2 {
+		position: absolute;
+		width: 422px;
+		height: 45px;
+		left: 0;
+		top: 99px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 33px;
+		line-height: 40px;
+		text-transform: uppercase;
+		color: #131414;
+		margin: 0;
+	}
+
+	.about h4 {
+		position: absolute;
+		width: 286px;
+		height: 23px;
+		left: 0;
+		top: 144px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 127.4%;
+		margin: 0;
+		color: #131414;
+	}
+
+	.about p {
+		position: absolute;
+		width: 506px;
+		height: 69px;
+		left: 0;
+		top: 158px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 127.4%;
+		color: #131414;
+	}
+
+	.rating {
+		position: relative;
+		width: 250px;
+		height: 40px;
+		top: 17em;
+		left: 0em;
+		display: inline-flex;
+	}
+
+	#stars {
+		position: absolute;
+		width: 41.48px;
+		height: 18.58px;
+		top: 0;
+		left: 0px;
+		padding: 0 10px 0 0;
+	}
+
+	.stat {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		height: 100%;
+	}
+
+	.stat p {
+		position: absolute;
+		top: 0;
+		left: 17em;
+		height: 20px;
+		margin: 0;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px;
+		/* letter-spacing: 0em; */
+		text-align: left;
+		color: #727272;
+	}
+
+	#reit {
+		position: absolute;
+		width: 20px;
+		top: 0;
+		left: 4em;
+	}
+
+	#reviews {
+		position: absolute;
+		width: 7em;
+		left: 6em;
+		top: 0;
+		padding: 0 10px 0 20px;
+		margin: 0 10px;
+		border-left: 1px solid #727272;
+		border-right: 1px solid #727272;
+	}
+
+	.delivery {
+		position: absolute;
+		width: 40px;
+		height: 20px;
+		top: 19em;
+		left: 0em;
+		display: inline-flex;
+	}
+
+	#box {
+		position: absolute;
+		top: 0px;
+		left: 0;
+		Width: 21.94px;
+		Height: 23.41px;
+	}
+
+	.delivery h4 {
+		position: absolute;
+		width: 212px;
+		height: 22px;
+		left: 2em;
+		top: 0;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #131414;
+	}
+
+	/* .price {
+		position: absolute;
+		left: 908.64px;
+		top: 355px;
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		width: 420px;
+		height: 168px;
+	} */
+
+	.cost {
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+		height: 10%;
+	}
+
+	#cost_new {
+		position: absolute;
+		width: 198px;
+		height: 59px;
+		left: 791px;
+		top: 381px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 59px;
+		text-transform: uppercase;
+		margin: 0;
+		color: #131414;
+	}
+
+	#cost_old {
+		position: absolute;
+		left: 782px;
+		top: 325px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+		text-align: end;
+		color: #727272;
+		margin: 0;
+		padding: 20px 20px 0;
+		text-decoration: line-through 2px #FF0000;
+	}
+
+	#discount {
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		left: 62em;
+		top: 351px;
+	}
+
+	/* ---------------Selector------------- */
+
+	.numeric {
+		position: absolute;
+		width: 40px;
+		height: 20px;
+		top: 26em;
+		left: 57em;
+		margin: 20px 0 0;
+	}
+
+	.row {
+		position: absolute;
+		text-align: left;
+		width: 140px;
+		margin: 0 auto;
+		padding: 0;
+		top: 22px;
+		left: 15px;
+	}
+
+	.row p {
+		position: absolute;
+		left: -7em;
+		top: -10px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #727272;
+	}
+
+	.number {
+		display: inline-block;
+		position: relative;
+		width: 113.55px;
+	}
+
+	.number input[type="number"] {
+		display: block;
+		height: 37px;
+		line-height: 32px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		border: 1px solid #C4C4C4;
+		border-radius: 30px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		color: #565860;
+		-moz-appearance: textfield;
+		-webkit-appearance: textfield;
+		appearance: textfield;
+	}
+
+	.number input[type="number"]::-webkit-outer-spin-button,
+	.number input[type="number"]::-webkit-inner-spin-button {
+		display: none;
+	}
+
+	.number-minus {
+		font-family: Montserrat;
+		position: absolute;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 30px 0px 0px 30px;
+		font-size: 22px;
+		font-weight: 400;
+	}
+
+	.number-plus {
+		font-family: Montserrat;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 0px 30px 30px 0px;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.button {
+		position: absolute;
+		left: 794px;
+		top: 524px;
+		width: 257px;
+		height: 59px;
+		display: inline-flex;
+		border-radius: 1px;
+		background-color: #FF6B00;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 28px;
+		padding: 20px;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 0;
+		align-items: center;
+	}
+
+	#cost_new_w {
+    position: absolute;
+	left: 0;
+	top: 20em;
+	}
+
+	#cost_old_two {
+	position: absolute;
+	left: 0;
+	top: 20em;
+	}
+
+	.button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+
+	.button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	}
+
+	.button:hover span {
+		padding-right: 25px;
+	}
+
+	.button:hover span:after {
+		opacity: 1;
+		right: 0;
+	}
+
+	.button span {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	/* --------------------ТАЙМЕР--------------------- */
+
+	.nedrcom-pevudindo {
+		position: absolute;
+		top: 325px;
+		left: 1050px;
+		width: 271px;
+		height: 95px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 20px 0 0px 20px;
+		overflow: hidden;
+	}
+
+	#clock {
+		position: absolute;
+		top: 19%;
+		left: 18px;
+	}
+
+	.endoagvanud {
+		position: absolute;
+		top: 17px;
+		right: 10px;
+		color: #131414;
+		font-family: "Montserrat", sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		margin: 0px 0 7px 0;
+	}
+
+	.asdupog {
+		width: 60px;
+		height: 55px;
+		margin: 0px 8px;
+		background-color: #FFD600;
+	}
+
+	.asdupog h2 {
+		position: relative;
+		margin: 0;
+		top: 5px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 30px;
+		text-transform: uppercase;
+	}
+
+	.countdown {
+		position: absolute;
+		right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.time small {
+		font-size: 26px;
+	}
+
+
+	.guide {
+		position: absolute;
+		top: 38em;
+		left: 0px;
+		width: 420px;
+		height: 120px;
+	}
+
+	.guide h2 {
+		position: relative;
+		width: 723px;
+		height: 38px;
+		left: 10em;
+		top: 10px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 12%;
+		/* identical to box height, or 38px */
+		text-transform: uppercase;
+		color: #181A19;
+	}
+
+	.woman-smile-two {
+		position: absolute;
+		width: 776px;
+		height: 572px;
+		left: 0px;
+		top: 695px;
+		background-position: center;
+		background-image: url(/img/woman-smiling-guide-big.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.guide-list {
+		position: absolute;
+		width: 664px;
+		height: 572px;
+		left: 776px;
+		top: 695px;
+		background: #F4C4FC;
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		align-content: space-evenly;
+	}
+
+	.rec {
+		width: 511px;
+        height: 70px;
+		margin: 20px 0;
+		background: #FFFFFF;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+		transform: translate(-210px, -0px);
+		border-radius: 241px;
+	}
+
+	.rec img {
+		position: relative;
+		right: 0;
+		top: 8px;
+		width: 115px;
+		height: 115px;
+		transform: translate(-40px, -3px);
+	}
+
+	.rec h2 {
+		position: relative;
+		top: 32%;
+		left: -0.8em;
+		width: 38px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 49px;
+		line-height: 60px;
+		margin: 0 10px 0 20px;
+		color: #923DA0;
+	}
+
+	.rec p {
+		position: relative;
+		top: 42%;
+		left: -2.2em;
+		width: 286px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0;
+		color: #181A19;
+	}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.header-area {
+		position: absolute;
+		width: 1440px;
+		height: 70px;
+		left: 0px;
+		top: 0px;
+		background: #F1DDF4;
+	}
+
+	.header-area h1 {
+		position: absolute;
+		width: 100%;
+		height: 31px;
+		padding: 22px 0 22px 0;
+		margin: 0;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 30px;
+		/* identical to box height */
+		text-align: center;
+		text-transform: uppercase;
+		color: #565860;
+	}
+
+	.main-section {
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		left: 0px;
+		top: 72px;
+	}
+
+	.vektor1 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 12.72%;
+		z-index: 2;
+	}
+
+	.vektor2 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 17%;
+		z-index: 2;
+	}
+
+
+	.woman-smile-main {
+		position: absolute;
+		width: 612px;
+		height: 400px;
+		left: 98px;
+		top: 34px;
+		background-image: url(../img/woman-smiling-main-big.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+
+	.slider_one {
+		position: relative;
+		height: 100px;
+		left: 13em;
+		top: 31em;
+		max-width: 140px;
+	}
+
+	.wedding {
+		position: relative;
+		top: 10%;
+		left: 26%;
+		width: 210px;
+		height: 69px;
+
+	}
+
+	.wedding__item {
+		height: 60px;
+		width: 60px;
+		padding: 0px;
+		margin: 5px;
+	}
+
+	.slick-slide {
+		width: 60px !important;
+	}
+
+	.wedding__item img {
+		position: relative;
+		max-width: 60px;
+	}
+
+	.slick-list {
+		overflow: hidden;
+	}
+
+	.wedding .slick-arrow {
+		position: absolute;
+		top: 50%;
+		margin: 0;
+		z-index: 19999;
+		font-size: 0;
+		width: 39px;
+		height: 39px;
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.wedding .slick-arrow.slick-prev {
+		left: -50px;
+		opacity: 1;
+		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+	}
+
+	.wedding .slick-arrow.slick-next {
+		right: -50px;
+		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+	}
+
+
+	.rectangle-858 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 100px;
+		top: 281px;
+		background: #923DA0;
+		border-radius: 0px;
+
+	}
+
+	.rectangle-859 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 100px;
+		top: 346px;
+		background: #923DA0;
+		border-radius: 0px;
+	}
+
+	h3 {
+		/* быстрая установка */
+		position: relative;
+		left: 15px;
+		vertical-align: middle;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 4.5%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	.about {
+		position: absolute;
+		top: 0;
+		left: 50em;
+		display: flex;
+		flex-direction: column;
+		height: 340px;
+		width: 500px;
+		border-bottom: 2px solid #DCDCDC;
+		padding-bottom: 0px;
+		margin: 0;
+	}
+
+	.about h2 {
+		position: absolute;
+		width: 422px;
+		height: 45px;
+		left: 0;
+		top: 99px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 33px;
+		line-height: 40px;
+		text-transform: uppercase;
+		color: #131414;
+		margin: 0;
+	}
+
+	.about h4 {
+		position: absolute;
+		width: 286px;
+		height: 23px;
+		left: 0;
+		top: 144px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 127.4%;
+		margin: 0;
+		color: #131414;
+	}
+
+	.about p {
+		position: absolute;
+		width: 506px;
+		height: 69px;
+		left: 0;
+		top: 158px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 127.4%;
+		color: #131414;
+	}
+
+	.rating {
+		position: relative;
+		width: 250px;
+		height: 40px;
+		top: 17em;
+		left: 0em;
+		display: inline-flex;
+	}
+
+	#stars {
+		position: absolute;
+		width: 41.48px;
+		height: 18.58px;
+		top: 0;
+		left: 0px;
+		padding: 0 10px 0 0;
+	}
+
+	.stat {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		height: 100%;
+	}
+
+	.stat p {
+		position: absolute;
+		top: 0;
+		left: 17em;
+		height: 20px;
+		margin: 0;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px;
+		/* letter-spacing: 0em; */
+		text-align: left;
+		color: #727272;
+	}
+
+	#reit {
+		position: absolute;
+		width: 20px;
+		top: 0;
+		left: 4em;
+	}
+
+	#reviews {
+		position: absolute;
+		width: 7em;
+		left: 6em;
+		top: 0;
+		padding: 0 10px 0 20px;
+		margin: 0 10px;
+		border-left: 1px solid #727272;
+		border-right: 1px solid #727272;
+	}
+
+	.delivery {
+		position: absolute;
+		width: 40px;
+		height: 20px;
+		top: 19em;
+		left: 0em;
+		display: inline-flex;
+	}
+
+	#box {
+		position: absolute;
+		top: 0px;
+		left: 0;
+		Width: 21.94px;
+		Height: 23.41px;
+	}
+
+	.delivery h4 {
+		position: absolute;
+		width: 212px;
+		height: 22px;
+		left: 2em;
+		top: 0;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #131414;
+	}
+
+	/* .price {
+		position: absolute;
+		left: 908.64px;
+		top: 355px;
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		width: 420px;
+		height: 168px;
+	} */
+
+	.cost {
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+		height: 10%;
+	}
+
+	#cost_new {
+		position: absolute;
+		width: 198px;
+		height: 59px;
+		left: 791px;
+		top: 381px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 59px;
+		text-transform: uppercase;
+		margin: 0;
+		color: #131414;
+	}
+
+	#cost_old {
+		position: absolute;
+		left: 782px;
+		top: 325px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+		text-align: end;
+		color: #727272;
+		margin: 0;
+		padding: 20px 20px 0;
+		text-decoration: line-through 2px #FF0000;
+	}
+
+	#discount {
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		left: 62em;
+		top: 351px;
+	}
+
+	/* ---------------Selector------------- */
+
+	.numeric {
+		position: absolute;
+		width: 40px;
+		height: 20px;
+		top: 26em;
+		left: 57em;
+		margin: 20px 0 0;
+	}
+
+	.row {
+		position: absolute;
+		text-align: left;
+		width: 140px;
+		margin: 0 auto;
+		padding: 0;
+		top: 22px;
+		left: 15px;
+	}
+
+	.row p {
+		position: absolute;
+		left: -7em;
+		top: -10px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #727272;
+	}
+
+	.number {
+		display: inline-block;
+		position: relative;
+		width: 113.55px;
+	}
+
+	.number input[type="number"] {
+		display: block;
+		height: 37px;
+		line-height: 32px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		border: 1px solid #C4C4C4;
+		border-radius: 30px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		color: #565860;
+		-moz-appearance: textfield;
+		-webkit-appearance: textfield;
+		appearance: textfield;
+	}
+
+	.number input[type="number"]::-webkit-outer-spin-button,
+	.number input[type="number"]::-webkit-inner-spin-button {
+		display: none;
+	}
+
+	.number-minus {
+		font-family: Montserrat;
+		position: absolute;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 30px 0px 0px 30px;
+		font-size: 22px;
+		font-weight: 400;
+	}
+
+	.number-plus {
+		font-family: Montserrat;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 0px 30px 30px 0px;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.button {
+		position: absolute;
+		left: 794px;
+		top: 524px;
+		width: 257px;
+		height: 59px;
+		display: inline-flex;
+		border-radius: 1px;
+		background-color: #FF6B00;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 28px;
+		padding: 20px;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 0;
+		align-items: center;
+	}
+
+	#cost_new_w {
+    position: absolute;
+	left: 0;
+	top: 20em;
+	}
+
+	#cost_old_two {
+	position: absolute;
+	left: 0;
+	top: 20em;
+	}
+
+	.button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+
+	.button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	}
+
+	.button:hover span {
+		padding-right: 25px;
+	}
+
+	.button:hover span:after {
+		opacity: 1;
+		right: 0;
+	}
+
+	.button span {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	/* --------------------ТАЙМЕР--------------------- */
+
+	.nedrcom-pevudindo {
+		position: absolute;
+		top: 325px;
+		left: 1050px;
+		width: 271px;
+		height: 95px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 20px 0 0px 20px;
+		overflow: hidden;
+	}
+
+	#clock {
+		position: absolute;
+		top: 19%;
+		left: 18px;
+	}
+
+	.endoagvanud {
+		position: absolute;
+		top: 17px;
+		right: 10px;
+		color: #131414;
+		font-family: "Montserrat", sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		margin: 0px 0 7px 0;
+	}
+
+	.asdupog {
+		width: 60px;
+		height: 55px;
+		margin: 0px 8px;
+		background-color: #FFD600;
+	}
+
+	.asdupog h2 {
+		position: relative;
+		margin: 0;
+		top: 5px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 30px;
+		text-transform: uppercase;
+	}
+
+	.countdown {
+		position: absolute;
+		right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.time small {
+		font-size: 26px;
+	}
+
+
+	.guide {
+		position: absolute;
+		top: 38em;
+		left: 0px;
+		width: 420px;
+		height: 120px;
+	}
+
+	.guide h2 {
+		position: relative;
+		width: 723px;
+		height: 38px;
+		left: 10em;
+		top: 10px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 12%;
+		/* identical to box height, or 38px */
+		text-transform: uppercase;
+		color: #181A19;
+	}
+
+	.woman-smile-two {
+		position: absolute;
+		width: 776px;
+		height: 572px;
+		left: 0px;
+		top: 695px;
+		background-position: center;
+		background-image: url(/img/woman-smiling-guide-big.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.guide-list {
+		position: absolute;
+		width: 664px;
+		height: 572px;
+		left: 776px;
+		top: 695px;
+		background: #F4C4FC;
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		align-content: space-evenly;
+	}
+
+	.rec {
+		width: 511px;
+        height: 70px;
+		margin: 20px 0;
+		background: #FFFFFF;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+		transform: translate(-210px, -0px);
+		border-radius: 241px;
+	}
+
+	.rec img {
+		position: relative;
+		right: 0;
+		top: 8px;
+		width: 115px;
+		height: 115px;
+		transform: translate(-40px, -3px);
+	}
+
+	.rec h2 {
+		position: relative;
+		top: 32%;
+		left: -0.8em;
+		width: 38px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 49px;
+		line-height: 60px;
+		margin: 0 10px 0 20px;
+		color: #923DA0;
+	}
+
+	.rec p {
+		position: relative;
+		top: 42%;
+		left: -2.2em;
+		width: 286px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0;
+		color: #181A19;
+	}
+
+}
+
+@media screen and (orientation: portrait) and (min-device-width : 481px) and (max-device-width : 767px) {
+
+	body {
+		position: relative;
+		top: 0;
+		max-width: 100%;
+		height: 2310px;
+		background: #FFFFFF;
+		margin: 0;
+	}
+
+	.header-area {
+		position: absolute;
+		width: 100%;
+		height: 73px;
+		background: #ffffff;
+	}
+
+	.header-area h1 {
+		position: absolute;
+		width: 100%;
+		height: 31px;
+		padding: 22px 0 22px 0;
+		margin: 0;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 30px;
+		/* identical to box height */
+		text-align: center;
+		text-transform: uppercase;
+
+		color: #565860;
+	}
+
+	.main-section {
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		left: 0px;
+		top: 72px;
+	}
+
+	.vektor1 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 12.72%;
+		z-index: 2;
+	}
+
+	.vektor2 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 17%;
+		z-index: 2;
+	}
+
+
+	.woman-smile-main {
+		/* woman-smiling-main */
+		position: absolute;
+		width: 100%;
+		height: 401px;
+		left: 0px;
+		top: 0px;
+		background-image: url(../img/woman-smiling-main-big.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.slider_one {
+		position: relative;
+		height: 100px;
+		top: 22%;
+		left: 0;
+		width: 100%;
+	}
+
+	.wedding {
+		position: relative;
+		top: 10%;
+		left: 30%;
+		width: 210px;
+		height: 69px;
+
+	}
+
+	.wedding__item {
+		height: 60px;
+		width: 60px;
+		padding: 0px;
+		margin: 5px;
+	}
+
+	.slick-slide {
+		width: 60px !important;
+	}
+
+	.wedding__item img {
+		position: relative;
+		max-width: 60px;
+	}
+
+	.slick-list {
+		overflow: hidden;
+	}
+
+	.wedding .slick-arrow {
+		position: absolute;
+		top: 50%;
+		margin: 0;
+		z-index: 19999;
+		font-size: 0;
+		width: 39px;
+		height: 39px;
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.wedding .slick-arrow.slick-prev {
+		left: -50px;
+		opacity: 1;
+		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+	}
+
+	.wedding .slick-arrow.slick-next {
+		right: -50px;
+		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+	}
+
+
+	.rectangle-858 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 0px;
+		top: 251px;
+		background: #923DA0;
+		border-radius: 0px;
+
+	}
+
+	.rectangle-859 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 0px;
+		top: 316px;
+		background: #923DA0;
+		border-radius: 0px;
+	}
+
+	h3 {
+		/* быстрая установка */
+		position: relative;
+		left: 15px;
+		vertical-align: middle;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 4.5%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	.about {
+		position: relative;
+		top: 29em;
+		left: 2em;
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+		width: 90%;
+		border-bottom: 2px solid #DCDCDC;
+		padding-bottom: 10px;
+		margin: 0;
+	}
+
+	.about h2 {
+		position: relative;
+		top: 40px;
+		left: 0;
+		font-size: 33px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 40px;
+		letter-spacing: 0em;
+		text-align: left;
+		text-transform: uppercase;
+		margin-left: 0px;
+	}
+
+	.about h4 {
+		position: relative;
+		top: 50px;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 23px;
+		letter-spacing: 0em;
+		text-align: left;
+		margin: 2px 0 2px 0;
+	}
+
+	.about p {
+		position: relative;
+		top: 45px;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 23px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.rating {
+		position: relative;
+		top: 55px;
+		display: inline-flex;
+	}
+
+	#stars {
+		width: 41.48px;
+		height: 18.58px;
+		left: 34px;
+		padding: 0 10px 0 0;
+	}
+
+	.stat {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		height: 100%;
+	}
+
+	.stat p {
+		top: 0;
+		height: 20px;
+		margin: 0;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #727272;
+	}
+
+	#reviews {
+		padding: 0 10px;
+		margin: 0 10px;
+		border-left: 1px solid #727272;
+		border-right: 1px solid #727272;
+	}
+
+	.delivery {
+		position: relative;
+		top: 80px;
+		display: inline-flex;
+	}
+
+	#box {
+		Width: 21.94px;
+		Height: 23.41px;
+	}
+
+	.delivery h4 {
+		top: 0;
+		height: 20px;
+		padding: 0 20px;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.price {
+		position: absolute;
+		top: 40%;
+		left: 30px;
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		width: 420px;
+		height: 168px;
+	}
+
+	.cost {
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+		height: 10%;
+	}
+
+	#cost_new {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 59px;
+		text-transform: uppercase;
+		color: #131414;
+		margin: 0;
+	}
+
+	#cost_old {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+		text-align: end;
+		color: #727272;
+		margin: 0;
+		padding: 20px 20px 0;
+		text-decoration: line-through 2px #FF0000;
+	}
+
+	#discount {
+		width: 48px;
+		height: 48px;
+	}
+
+	/* ---------------Selector------------- */
+
+	.numeric {
+		position: absolute;
+		bottom: 10%;
+		margin: 20px 0 0;
+	}
+
+	.row {
+		text-align: left;
+		width: 140px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.row p {
+		height: 22px;
+		left: 29px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #727272;
+	}
+
+	.number {
+		display: inline-block;
+		position: relative;
+		width: 113.55px;
+	}
+
+	.number input[type="number"] {
+		display: block;
+		height: 37px;
+		line-height: 32px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		border: 1px solid #C4C4C4;
+		border-radius: 30px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		color: #565860;
+		-moz-appearance: textfield;
+		-webkit-appearance: textfield;
+		appearance: textfield;
+	}
+
+	.number input[type="number"]::-webkit-outer-spin-button,
+	.number input[type="number"]::-webkit-inner-spin-button {
+		display: none;
+	}
+
+	.number-minus {
+		font-family: Montserrat;
+		position: absolute;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 30px 0px 0px 30px;
+		font-size: 22px;
+		font-weight: 400;
+	}
+
+	.number-plus {
+		font-family: Montserrat;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 0px 30px 30px 0px;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.button {
+		position: absolute;
+		top: 49%;
+		display: inline-flex;
+		border-radius: 1px;
+		background-color: #FF6B00;
+		border: none;
+		color: #FFFFFF;
+		text-align: left;
+		font-size: 28px;
+		padding: 20px;
+		width: 100%;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 0;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+
+	.button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	}
+
+	.button:hover span {
+		padding-right: 25px;
+	}
+
+	.button:hover span:after {
+		opacity: 1;
+		right: 0;
+	}
+
+	.button span {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	#cost_new_w {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		line-height: 40px;
+		text-transform: uppercase;
+		margin: 0;
+		color: #FFFFFF;
+	}
+
+	#cost_old_two {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+		color: #4A1414;
+		margin: 0;
+		padding: 0;
+		text-decoration: line-through 2px #ffffff;
+	}
+
+	.guide {
+		position: absolute;
+		top: 54%;
+		left: 5em;
+		width: 420px;
+		height: 120px;
+	}
+
+	.guide h2 {
+		position: relative;
+		width: 420px;
+		height: 66px;
+		margin: 0;
+		left: 0;
+		top: 10px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 127%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #181A19;
+	}
+
+	.woman-smile-two {
+		position: absolute;
+		width: 100%;
+		height: 450px;
+		left: 0px;
+		top: 59%;
+		background-image: url(/img/woman-smiling-guide-big.jpg);
+		background-position: center;
+	}
+
+	.guide-list {
+		position: absolute;
+		width: 100%;
+		height: 636px;
+		right: 0;
+		bottom: 0;
+		background: #F4C4FC;
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		align-content: space-evenly;
+	}
+
+	.rec {
+		width: 377px;
+		height: 90px;
+		background: #FFFFFF;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	.rec img {
+		position: absolute;
+		width: 115px;
+		height: 115px;
+		left: 34px;
+		transform: translate(-10px, -3px);
+	}
+
+	.rec h2 {
+		width: 38px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 49px;
+		line-height: 60px;
+		margin: 0 10px 0 20px;
+		color: #923DA0;
+	}
+
+	.rec p {
+		width: 238px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0;
+		color: #181A19;
+	}
+
+}
+
+
+@media screen and (orientation: portrait) and (max-device-width : 480px) {
+
+	body {
+		position: relative;
+		top: 0;
+		max-width: 420px;
+		height: 2310px;
+		background: #FFFFFF;
+		margin: 0;
+	}
+
+	.header-area {
+		position: absolute;
+		width: 100%;
+		height: 73px;
+		background: #ffffff;
+	}
+
+	.header-area h1 {
+		position: absolute;
+		width: 100%;
+		height: 31px;
+		padding: 22px 0 22px 0;
+		margin: 0;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 30px;
+		/* identical to box height */
+		text-align: center;
+		text-transform: uppercase;
+
+		color: #565860;
+	}
+
+	.main-section {
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		left: 0px;
+		top: 72px;
+	}
+
+	.vektor1 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 12.72%;
+		z-index: 2;
+	}
+
+	.vektor2 {
+		/* Vector */
+		position: absolute;
+		left: 4.79%;
+		right: 90.62%;
+		top: 17%;
+		z-index: 2;
+	}
+
+
+	.woman-smile-main {
+		/* woman-smiling-main */
+		position: absolute;
+		width: 480px;
+		height: 401px;
+		left: 0px;
+		top: 0px;
+		background-image: url(../img/woman-smiling-main.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.slider_one {
+		position: relative;
+		height: 100px;
+		top: 22%;
+		left: 1.5em;
+		max-width: 1140px;
+	}
+
+	.wedding {
+		position: relative;
+		top: 10%;
+		left: 26%;
+		width: 210px;
+		height: 69px;
+
+	}
+
+	.wedding__item {
+		height: 60px;
+		width: 60px;
+		padding: 0px;
+		margin: 5px;
+	}
+
+	.slick-slide {
+		width: 60px !important;
+	}
+
+	.wedding__item img {
+		position: relative;
+		max-width: 60px;
+	}
+
+	.slick-list {
+		overflow: hidden;
+	}
+
+	.wedding .slick-arrow {
+		position: absolute;
+		top: 50%;
+		margin: 0;
+		z-index: 19999;
+		font-size: 0;
+		width: 39px;
+		height: 39px;
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.wedding .slick-arrow.slick-prev {
+		left: -50px;
+		opacity: 1;
+		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+	}
+
+	.wedding .slick-arrow.slick-next {
+		right: -50px;
+		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+	}
+
+	.rectangle-858 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 0px;
+		top: 251px;
+		background: #923DA0;
+		border-radius: 0px;
+
+	}
+
+	.rectangle-859 {
+		position: absolute;
+		width: 312px;
+		height: 50px;
+		left: 0px;
+		top: 316px;
+		background: #923DA0;
+		border-radius: 0px;
+	}
+
+	h3 {
+		/* быстрая установка */
+		position: relative;
+		left: 15px;
+		vertical-align: middle;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 4.5%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	.about {
+		position: relative;
+		top: 21%;
+		left: 30px;
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+		width: 420px;
+		border-bottom: 1px solid #DCDCDC;
+		padding-bottom: 20px;
+	}
+
+	.about h2 {
+		position: relative;
+		top: 40px;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 40px;
+		letter-spacing: 0em;
+		text-align: left;
+		text-transform: uppercase;
+		margin: 2px 0 2px 0;
+
+	}
+
+	.about h4 {
+		position: relative;
+		top: 50px;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 23px;
+		letter-spacing: 0em;
+		text-align: left;
+		margin: 2px 0 2px 0;
+	}
+
+	.about p {
+		position: relative;
+		top: 45px;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 23px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.rating {
+		position: relative;
+		top: 55px;
+		display: inline-flex;
+	}
+
+	#stars {
+		width: 41.48px;
+		height: 18.58px;
+		left: 34px;
+		padding: 0 10px 0 0;
+	}
+
+	.stat {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		height: 100%;
+	}
+
+	.stat p {
+		top: 0;
+		height: 20px;
+		margin: 0;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #727272;
+	}
+
+	#reviews {
+		padding: 0 10px;
+		margin: 0 10px;
+		border-left: 1px solid #727272;
+		border-right: 1px solid #727272;
+	}
+
+	.delivery {
+		position: relative;
+		top: 80px;
+		display: inline-flex;
+	}
+
+	#box {
+		Width: 21.94px;
+		Height: 23.41px;
+	}
+
+	.delivery h4 {
+		top: 0;
+		height: 20px;
+		padding: 0 20px;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.price {
+		position: absolute;
+		top: 40%;
+		left: 30px;
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		width: 420px;
+		height: 168px;
+	}
+
+	.cost {
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+		height: 10%;
+	}
+
+	#cost_new {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 59px;
+		text-transform: uppercase;
+		color: #131414;
+		margin: 0;
+	}
+
+	#cost_old {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+		text-align: end;
+		color: #727272;
+		margin: 0;
+		padding: 20px 20px 0;
+		text-decoration: line-through 2px #FF0000;
+	}
+
+	#discount {
+		width: 48px;
+		height: 48px;
+	}
+
+	/* ---------------Selector------------- */
+
+	.numeric {
+		position: absolute;
+		bottom: 10%;
+		margin: 20px 0 0;
+	}
+
+	.row {
+		text-align: left;
+		width: 140px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.row p {
+		height: 22px;
+		left: 29px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #727272;
+	}
+
+	.number {
+		display: inline-block;
+		position: relative;
+		width: 113.55px;
+	}
+
+	.number input[type="number"] {
+		display: block;
+		height: 37px;
+		line-height: 32px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		border: 1px solid #C4C4C4;
+		border-radius: 30px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		color: #565860;
+		-moz-appearance: textfield;
+		-webkit-appearance: textfield;
+		appearance: textfield;
+	}
+
+	.number input[type="number"]::-webkit-outer-spin-button,
+	.number input[type="number"]::-webkit-inner-spin-button {
+		display: none;
+	}
+
+	.number-minus {
+		font-family: Montserrat;
+		position: absolute;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 30px 0px 0px 30px;
+		font-size: 22px;
+		font-weight: 400;
+	}
+
+	.number-plus {
+		font-family: Montserrat;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 35.55px;
+		height: 37px;
+		padding: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		border: 1px solid #C4C4C4;
+		background: #EFEFEF;
+		border-radius: 0px 30px 30px 0px;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.button {
+		position: absolute;
+		top: 49%;
+		display: inline-flex;
+		border-radius: 1px;
+		background-color: #FF6B00;
+		border: none;
+		color: #FFFFFF;
+		text-align: left;
+		font-size: 28px;
+		padding: 20px;
+		width: 480px;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 0;
+		justify-content: space-evenly;
+		align-items: center;
+
+	}
+
+	.button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	}
+
+	.button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	}
+
+	.button:hover span {
+		padding-right: 25px;
+	}
+
+	.button:hover span:after {
+		opacity: 1;
+		right: 0;
+	}
+
+	.button span {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 99.19%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	#cost_new_w {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		line-height: 40px;
+		text-transform: uppercase;
+		margin: 0;
+		color: #FFFFFF;
+	}
+
+	#cost_old_two {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-transform: uppercase;
+		color: #4A1414;
+		margin: 0;
+		padding: 0;
+		text-decoration: line-through 2px #FF0000;
+	}
+
+	.guide {
+		position: absolute;
+		top: 54%;
+		left: 30px;
+		width: 420px;
+		height: 120px;
+	}
+
+	.guide h2 {
+		position: relative;
+		width: 420px;
+		height: 66px;
+		margin: 0;
+		left: 0;
+		top: 10px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 127%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #181A19;
+	}
+
+	.woman-smile-two {
+		position: absolute;
+		width: 480px;
+		height: 312px;
+		left: 0px;
+		top: 59%;
+		background-image: url(/img/woman-smiling-guide.jpg);
+
+	}
+
+	.guide-list {
+		position: absolute;
+		width: 480px;
+		height: 636px;
+		left: 0px;
+		bottom: 0;
+		background: #F4C4FC;
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		align-content: space-evenly;
+	}
+
+	.rec {
+		width: 377px;
+		height: 90px;
+		background: #FFFFFF;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	.rec img {
+		position: absolute;
+		width: 115px;
+		height: 115px;
+		left: 34px;
+		transform: translate(-10px, -14px);
+	}
+
+	.rec h2 {
+		width: 38px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 49px;
+		line-height: 60px;
+		margin: 0 10px 0 20px;
+		color: #923DA0;
+	}
+
+	.rec p {
+		width: 238px;
+		height: 60px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0;
+		color: #181A19;
+	}
+
+}

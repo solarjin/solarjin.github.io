@@ -1,20 +1,11 @@
+const Telegraf = require('telegraf')
+const config = require('config')
+const bot = new Telegraf(config.get('token'))
 
-const TelegramBot = require('node-telegram-bot-api');
+bot.use(Telegraf.log())
 
-const token = '1714104808:AAFQMFfjRZVNxpfFJDChp-FQGP6oX5to0qU';
-
-const bot = new TelegramBot(token, {polling: true});
-
-bot.onText(/\/echo (.+)/, (msg, match) => {
-
-  const chatId = msg.chat.id;
-  const resp = match[1]; // the captured "whatever"
-
-  bot.sendMessage(chatId, resp);
-});
-
-bot.on('message', (msg) => {
-  const chatId = msg.chat.id;
-
-  bot.sendMessage(chatId, 'Получили твое сообщение! Спасибо!');
-});
+bot.start((ctx) => ctx.reply('Welcome'))
+bot.help((ctx) => ctx.reply('Send me a sticker'))
+bot.on('sticker', (ctx) => ctx.reply('👍'))
+bot.hears('hi', (ctx) => ctx.reply('Hey there'))
+bot.launch()
