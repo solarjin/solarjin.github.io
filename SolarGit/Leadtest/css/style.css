@@ -195,12 +195,12 @@ body {
 	.wedding .slick-arrow.slick-prev {
 		left: -50px;
 		opacity: 1;
-		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+		background: url(../img/sim-arrow-left.png) 0 0 / 100% no-repeat;
 	}
 
 	.wedding .slick-arrow.slick-next {
 		right: -50px;
-		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+		background: url(../img/sim-arrow-right.png) 0 0 / 100% no-repeat;
 	}
 
 
@@ -712,7 +712,7 @@ body {
 		left: 0px;
 		top: 695px;
 		background-position: center;
-		background-image: url(/img/woman-smiling-guide-big.jpg);
+		background-image: url(../img/woman-smiling-guide-big.jpg);
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -906,12 +906,12 @@ body {
 	.wedding .slick-arrow.slick-prev {
 		left: -50px;
 		opacity: 1;
-		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+		background: url(../img/sim-arrow-left.png) 0 0 / 100% no-repeat;
 	}
 
 	.wedding .slick-arrow.slick-next {
 		right: -50px;
-		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+		background: url(../img/sim-arrow-right.png) 0 0 / 100% no-repeat;
 	}
 
 
@@ -1423,7 +1423,7 @@ body {
 		left: 0px;
 		top: 695px;
 		background-position: center;
-		background-image: url(/img/woman-smiling-guide-big.jpg);
+		background-image: url(../img/woman-smiling-guide-big.jpg);
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -1616,12 +1616,12 @@ body {
 	.wedding .slick-arrow.slick-prev {
 		left: -50px;
 		opacity: 1;
-		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+		background: url(../img/sim-arrow-left.png) 0 0 / 100% no-repeat;
 	}
 
 	.wedding .slick-arrow.slick-next {
 		right: -50px;
-		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+		background: url('../img/sim-arrow-right.png) 0 0 / 100% no-repeat;
 	}
 
 
@@ -2133,7 +2133,7 @@ body {
 		left: 0px;
 		top: 695px;
 		background-position: center;
-		background-image: url(/img/woman-smiling-guide-big.jpg);
+		background-image: url(../img/woman-smiling-guide-big.jpg);
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -2334,12 +2334,12 @@ body {
 	.wedding .slick-arrow.slick-prev {
 		left: -50px;
 		opacity: 1;
-		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+		background: url(../img/sim-arrow-left.png) 0 0 / 100% no-repeat;
 	}
 
 	.wedding .slick-arrow.slick-next {
 		right: -50px;
-		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+		background: url(../img/sim-arrow-right.png) 0 0 / 100% no-repeat;
 	}
 
 
@@ -2743,7 +2743,7 @@ body {
 		height: 450px;
 		left: 0px;
 		top: 59%;
-		background-image: url(/img/woman-smiling-guide-big.jpg);
+		background-image: url(../img/woman-smiling-guide-big.jpg);
 		background-position: center;
 	}
 
@@ -2932,12 +2932,12 @@ body {
 	.wedding .slick-arrow.slick-prev {
 		left: -50px;
 		opacity: 1;
-		background: url('/img/sim-arrow-left.png') 0 0 / 100% no-repeat;
+		background: url('../img/sim-arrow-left.png') 0 0 / 100% no-repeat;
 	}
 
 	.wedding .slick-arrow.slick-next {
 		right: -50px;
-		background: url('/img/sim-arrow-right.png') 0 0 / 100% no-repeat;
+		background: url('../img/sim-arrow-right.png') 0 0 / 100% no-repeat;
 	}
 
 	.rectangle-858 {
@@ -3340,7 +3340,7 @@ body {
 		height: 312px;
 		left: 0px;
 		top: 59%;
-		background-image: url(/img/woman-smiling-guide.jpg);
+		background-image: url(../img/woman-smiling-guide.jpg);
 
 	}
 
