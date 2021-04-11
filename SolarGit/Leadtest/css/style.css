@@ -1621,7 +1621,7 @@ body {
 
 	.wedding .slick-arrow.slick-next {
 		right: -50px;
-		background: url('../img/sim-arrow-right.png) 0 0 / 100% no-repeat;
+		background: url(../img/sim-arrow-right.png) 0 0 / 100% no-repeat;
 	}
 
 
