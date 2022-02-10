@@ -24,15 +24,6 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="fa fa-bars"></span> Меню
                         </button>
-                        <div class="site-header-inner">
-                            <div class="brand header-brand">
-                                <h1 class="m-0">
-                                    <a href="#">
-                                        <img class="header-logo-image" style="margin: 0 40px 0 0; " src="dist/images/logo.png" alt="Logo">
-                                    </a>
-                                </h1>
-                            </div>
-                        </div>
 
                         <div class="collapse navbar-collapse" id="ftco-nav">
                             <ul class="navbar-nav mr-auto">
@@ -50,6 +41,17 @@
                                 <li class="nav-item"><a href="https://lk.intehsvyaz.ru/" style="color: rgb(255, 243, 78)" class="nav-link"><b>Личный кабинет</b></a></li>
                             </ul>
                         </div>
+
+                        <div class="site-header-inner">
+                            <div class="brand header-brand">
+                                <h1 class="m-0">
+                                    <a href="#">
+                                        <img class="header-logo-image" style="margin: 0 40px 0 0; " src="dist/images/logo.png" alt="Logo">
+                                    </a>
+                                </h1>
+                            </div>
+                        </div>
+
                         <!-- <div class="site-header-inner">
                             <div class="brand header-brand">
                                 <h1 class="m-0">
@@ -71,8 +73,11 @@
                         <div class="hero-copy">
                             <h1 class="hero-title mt-0">Легкое подключение</h1>
                             <p class="hero-paragraph">Age template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-                            <div class="hero-cta"><a class="button button-primary" href="#zatemnenie">Оставить заявку</a><a class="button" href="#">Письмо руководству</a></div>
+                            <div class="hero-cta"><a class="button button-primary" href="#zatemnenie">Оставить заявку</a>
+                                <a class="button" href="#zatemnenie-2">Письмо руководству</a></div>
                         </div>
+
+                        <!--   Форма заявки клиента -->
 
                         <div id="zatemnenie">
                             <div id="okno">
@@ -82,12 +87,24 @@
                                         <h4>Оставьте заявку на подключение</h4>
 
                                         <div class="item">
+                                            <p>Тип клиента</p>
+                                            <div class="name-item">
+                                                <select style="color:black">
+                                                    <option value="" selected>Выберите вариант</option>
+                                                    <option value="1">Физическое лицо</option>
+                                                    <option value="2">Юридическое лицо</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
                                             <p>Имя</p>
                                             <div class="name-item">
                                                 <input type="text" name="name" placeholder="Имя" />
                                                 <input type="text" name="name" placeholder="Фамилия" />
                                             </div>
                                         </div>
+
                                         <div class="item">
                                             <p>Телефон</p>
                                             <input type="text" name="name" placeholder="+7918-00-00-00" />
@@ -95,18 +112,12 @@
                                         <div class="item">
                                             <p>Укажите адрес</p>
                                             <input type="text" name="name" placeholder="ул. Энергетиков, д. 12, кв. 23" />
-                                            <div class="city-item">
-                                                <input type="text" name="name" placeholder="Населенный пункт" />
-
-                                                <select>
-                                                <option value="" selected>Тарифный план</option>
-                                                <option value="1">Тариф 1</option>
-                                                <option value="2">Тариф 2</option>
-                                                <option value="3">Тариф 3</option>
-                                                <option value="4">Тариф 4</option>
-                                                <option value="5">Тариф 5</option>
+                                            <select style="color:black">
+                                                <option value="" selected>Населенный пункт</option>
+                                                <option value="1">Пункт 1</option>
+                                                <option value="2">Пункт 2</option>
+                                                <option value="3">Пункт 3</option>
                                             </select>
-                                            </div>
                                         </div>
                                         <div class="item">
                                             <p>Email</p>
@@ -117,15 +128,86 @@
                                             <textarea rows="3"></textarea>
                                         </div>
 
+                                        <input type="checkbox" id="politics" onclick="check();" value="" autocomplete="off" /> Нажимая на кнопку "Отправить заказ", я даю <a href="ссылка на страницу согласия">согласие на обработку персональных данных.</a>
+
                                         <div class="btn-block">
-                                            <button type="submit" href="/">Отправить</button>
+
+                                            <input type="submit" name="submit" class="submit" disabled="" value="Отправить" />
                                         </div>
                                     </form>
+                                    <script>
+                                        function check() {
+                                            var submit = document.getElementsByName('submit')[0];
+                                            if (document.getElementById('politics').checked)
+                                                submit.disabled = '';
+                                            else
+                                                submit.disabled = 'disabled';
+                                        }
+                                    </script>
                                 </div>
 
                                 <a href="#" class="close">Закрыть окно</a>
                             </div>
                         </div>
+
+                        <!--   Форма обращения к руководству -->
+
+                        <div id="zatemnenie-2">
+                            <div id="okno">
+
+                                <div class="testbox">
+                                    <form action="/">
+                                        <h4>Оставьте обращение руководству</h4>
+
+
+                                        <div class="item">
+                                            <p>Телефон</p>
+                                            <input type="text" name="name" placeholder="+7918-00-00-00" />
+                                        </div>
+
+                                        <div class="item">
+                                            <p>Номер договора</p>
+                                            <input type="text" name="name" placeholder="№000" />
+                                        </div>
+
+                                        <div class="item">
+                                            <p>Email</p>
+                                            <input type="text" name="name" />
+                                        </div>
+
+                                        <div class="item">
+                                            <p>Адрес Подключения</p>
+                                            <input type="text" name="name" placeholder="ул. Энергетиков, д. 12, кв. 23" />
+
+                                        </div>
+
+                                        <div class="item">
+                                            <p>Сообщение</p>
+                                            <textarea rows="3"></textarea>
+                                        </div>
+
+                                        <input type="checkbox" id="politics" onclick="check();" value="" autocomplete="off" /> Нажимая на кнопку "Отправить заказ", я даю <a href="ссылка на страницу согласия">согласие на обработку персональных данных.</a>
+
+                                        <div class="btn-block">
+
+                                            <input type="submit" name="submit" class="submit" disabled="" value="Отправить" />
+                                        </div>
+                                    </form>
+                                    <script>
+                                        function check() {
+                                            var submit = document.getElementsByName('submit')[0];
+                                            if (document.getElementById('politics').checked)
+                                                submit.disabled = '';
+                                            else
+                                                submit.disabled = 'disabled';
+                                        }
+                                    </script>
+                                </div>
+
+                                <a href="#" class="close">Закрыть окно</a>
+                            </div>
+                        </div>
+
 
 
                         <div class="hero-figure anime-element">
@@ -304,5 +386,7 @@
     <script src="/solid/dist/js/main.js"></script>
     <script src="/solid/dist/js/bootstrap.min.js"></script>
 </body>
+
+</html>
 
 </html>
