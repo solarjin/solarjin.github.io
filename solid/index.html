@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ИнТехСвязь</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/style-menu.css">
+    <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+
+        <header class="site-header">
+
+            <section class="ftco-section">
+
+                <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+                    <div class="container">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fa fa-bars"></span> Меню
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="ftco-nav">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active"><a href="/solid/index.html" class="nav-link">Главная</a>
+                                </li>
+                                <li class="nav-item"><a href="/solid/about.html" class="nav-link">О компании</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">Тарифы</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                        <a class="dropdown-item" href="/solid/individual.html">Физическим лицам</a>
+                                        <a class="dropdown-item" href="/solid/business.html">Юридическим лицам</a>
+                                        <a class="dropdown-item" href="/solid/season.html">Тариф "Сезонный"</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a href="/solid/contacts.html" class="nav-link">Контакты</a></li>
+                                <li class="nav-item"><a href="/solid/service-rules.html" class="nav-link">Общие
+                                        положения</a></li>
+                                <li class="nav-item"><a href="https://lk.intehsvyaz.ru/"
+                                        style="color: rgb(255, 243, 78)" class="nav-link"><b>Личный кабинет</b></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+
+            </section>
+
+            <!-------///////// END nav ////////////------>
+
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+
+                        <div class="hero-copy">
+
+                            <img class="hero-logo-image" src="dist/images/logo.png" alt="Logo">
+
+                            <h1 class="hero-title mt-0">Легкое подключение</h1>
+                            <p class="hero-paragraph">Быстрый и безлимитный интернет в каждый дом</p>
+                            <div class="hero-cta"><a class="button button-primary" href="#zatemnenie">Оставить
+                                    заявку</a>
+                                <a class="button" href="#zatemnenie-2">Письмо руководству</a>
+                            </div>
+                        </div>
+
+
+                        <!-----------////////   Форма заявки клиента //////////---------->
+
+                        <div id="zatemnenie">
+                            <div id="okno">
+
+                                <div class="testbox">
+                                    <form action="/">
+                                        <h4 class="form-titel">Оставьте заявку на подключение</h4>
+
+                                        <div class="item">
+                                            <div class="name-item">
+                                                <input class="inplong" type="text" name="name" placeholder="ФИО" />
+                                                <input class="inpshort" id="phone" type="text"
+                                                    placeholder="+7(918)-00-00-00">
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="city-item">
+                                                <select class="inplong">
+                                                    <option value="" selected>Населенный пункт</option>
+                                                    <option value="1">Пункт 1</option>
+                                                    <option value="2">Пункт 2</option>
+                                                    <option value="3">Пункт 3</option>
+                                                </select>
+                                                <input class="inplong" type="text " name="name "
+                                                    placeholder="ул. Энергетиков " />
+                                                <input class="inpshort" type="text " name="name " placeholder="д.12 " />
+                                                <input class="inpshort" type="text " name="name "
+                                                    placeholder="кв.23 " />
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <input class="inpshort" type="text" name="name"
+                                                placeholder="Ваш адрес электронной почты" />
+                                        </div>
+                                        <div class="item">
+                                            <textarea class="inplong textarea-style"
+                                                placeholder="Откуда Вы узнали о нас?" rows="3"></textarea>
+                                        </div>
+
+                                        <input class="custom-checkbox" type="checkbox" id="politics" onclick="check();"
+                                            value=" " autocomplete="off" />
+                                        <label for="politics"></label>
+
+                                        Нажимая на кнопку "Отправить", я даю
+                                        <a href="ссылка на страницу согласия">согласие на обработку персональных
+                                            данных.</a>
+
+                                        <div class="btn-block">
+                                            <input type="submit" name="submit"
+                                                class="submi button button-primary"" disabled=""
+                                                value=" Отправить" />
+                                        </div>
+                                    </form>
+                                    <script>
+                                        function check() {
+                                            var submit = document.getElementsByName('submit')[0];
+                                            if (document.getElementById('politics').checked)
+                                                submit.disabled = '';
+                                            else
+                                                submit.disabled = 'disabled';
+                                        }
+                                    </script>
+                                </div>
+                                <a href="# " class="close">&#10006;</a>
+                            </div>
+                        </div>
+
+                        <!--------   Форма обращения к руководству -------->
+
+                        <div id="zatemnenie-2">
+                            <div id="okno">
+
+                                <div class="testbox">
+                                    <form action="/">
+                                        <h4 class="form-titel">Оставьте обращение руководству</h4>
+                                        <div class="item">
+                                            <div class="name-item">
+                                                <input class="inplong" id="phone2" type="text"
+                                                    placeholder="+7(918)-00-00-00">
+                                                <input class="inplong" type="text" name="name"
+                                                    placeholder="Номер договора" />
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <input class="inpshort" type="text" name="name"
+                                                placeholder="Ваш адрес электронной почты" />
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="city-item">
+                                                <select class="inplong">
+                                                    <option value="" selected>Адрес Подключения</option>
+                                                    <option value="1">Пункт 1</option>
+                                                    <option value="2">Пункт 2</option>
+                                                    <option value="3">Пункт 3</option>
+                                                </select>
+                                                <input class="inplong" type="text " name="name "
+                                                    placeholder="ул. Энергетиков " />
+                                                <input class="inpshort" type="text " name="name " placeholder="д.12 " />
+                                                <input class="inpshort" type="text " name="name "
+                                                    placeholder="кв.23 " />
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <textarea class="inplong textarea-style" placeholder="Сообщение"
+                                                rows="3"></textarea>
+                                        </div>
+
+
+                                        <input class="custom-checkbox" type="checkbox" id="politics2" onclick="check();"
+                                            value=" " autocomplete="off" />
+                                        <label for="politics2"></label>
+
+                                        Нажимая на кнопку "Отправить", я даю
+                                        <a href="ссылка на страницу согласия">согласие на обработку персональных
+                                            данных.</a>
+
+
+                                        <div class="btn-block">
+                                            <input type="submit" name="submit"
+                                                class="submi button button-primary"" disabled=""
+                                            value=" Отправить" />
+                                        </div>
+                                    </form>
+                                    <script>
+                                        function check() {
+                                            var submit = document.getElementsByName('submit')[0];
+                                            if (document.getElementById('politics2').checked)
+                                                submit.disabled = '';
+                                            else
+                                                submit.disabled = 'disabled';
+                                        }
+                                    </script>
+                                </div>
+
+                                <a href="# " class="close">&#10006;</a>
+                            </div>
+                        </div>
+
+                        <!--------   Конец Форма обращения к руководству -------->
+
+                        <div class="hero-figure anime-element ">
+                            <svg class="placeholder " width="528 " height="396 " viewBox="0 0 528 396 ">
+                                <rect width="528 " height="396 " style="fill:transparent; " />
+                            </svg>
+                            <div class="hero-figure-box hero-figure-box-01 " data-rotation="45deg "></div>
+                            <div class="hero-figure-box hero-figure-box-02 " data-rotation="-45deg "></div>
+                            <div class="hero-figure-box hero-figure-box-03 " data-rotation="0deg "></div>
+                            <div class="hero-figure-box hero-figure-box-04 " data-rotation="-135deg "></div>
+                            <div class="hero-figure-box hero-figure-box-05 "></div>
+                            <div class="hero-figure-box hero-figure-box-06 "></div>
+                            <div class="hero-figure-box hero-figure-box-07 "></div>
+                            <div class="hero-figure-box hero-figure-box-08 " data-rotation="-22deg "></div>
+                            <div class="hero-figure-box hero-figure-box-09 " data-rotation="-52deg "></div>
+                            <div class="hero-figure-box hero-figure-box-10 " data-rotation="-50deg "></div>
+                        </div>
+                         
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container">
+                    <div class="features-inner section-inner has-bottom-divider">
+
+                        <div class="pricing-header text-center">
+                            <h2 class="section-title mt-0 ">Услуги</h2>
+                            <!-- <p class="section-paragraph mb-0 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.
+                            </p> -->
+                        </div>
+
+                        <div class="features-wrap service-st">
+                            <div class="feature text-center is-revealing">
+                                <a href="/solid/inet.html">
+                                    <div class="feature-inner">
+                                        <div class="feature-icon">
+                                            <img src="dist/images/feature-icon-01.svg" alt="Feature 01">
+                                        </div>
+                                        <h4 class="feature-title mt-24">Интернет</h4>
+                                        <p class="text-sm mb-0">Безлимитный интернет по выделенному каналу со скоростью доступа до 100 Мбит/с.</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <a href="/solid/tv.html">
+                                    <div class="feature-inner">
+                                        <div class="feature-icon">
+                                            <img src="dist/images/feature-icon-02.svg " alt="Feature 02 ">
+                                        </div>
+                                        <h4 class="feature-title mt-24 ">Телевидение</h4>
+                                        <p class="text-sm mb-0 ">Просмотр каналов цифрового телевидения, в том числе в формате HD.</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <a href="/solid/video.html">
+                                    <div class="feature-inner">
+                                        <div class="feature-icon">
+                                            <img src="dist/images/feature-icon-03.svg" alt="Feature 03">
+                                        </div>
+                                        <h4 class="feature-title mt-24">Видеонаблюдение</h4>
+                                        <p class="text-sm mb-0">Удаленный доступ к видеокамерам для наблюдения за вашим домом.</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <a href="/solid/shield.html">
+                                    <div class="feature-inner">
+                                        <div class="feature-icon">
+                                            <img src="dist/images/feature-icon-04.svg " alt="Feature 04 ">
+                                        </div>
+                                        <h4 class="feature-title mt-24 ">Системы безопасности (умный дом)</h4>
+                                        <p class="text-sm mb-0 ">Датчики собирают информацию о происходящем в доме и передают ее на основной блок охранной сигнализации.</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <a href="/solid/payment.html">
+                                    <div class="feature-inner ">
+                                        <div class="feature-icon ">
+                                            <img src="dist/images/feature-icon-05.svg " alt="Feature 05 ">
+                                        </div>
+                                        <h4 class="feature-title mt-24 ">Способы оплаты</h4>
+                                        <p class="text-sm mb-0 ">Fermentum posuere urna nec tincidunt praesent semper
+                                            feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis
+                                            convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="# ">
+                            <img class="header-logo-image" src="dist/images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <div class="footer-copyright ">&copy; 2022 Интех Связь, все права защищены. </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="dist/js/main.min.js "></script>
+    <script src="/solid/dist/js/jquery.min.js "></script>
+    <script src="/solid/dist/js/popper.js "></script>
+    <script src="/solid/dist/js/main.js "></script>
+    <script src="/solid/dist/js/bootstrap.min.js "></script>
+
+    <script src="/solid/dist/js/jquery.maskedinput.js "></script>
+
+    <script src="/solid/dist/js/jquery.maskedinput.min.js "></script>
+</body>
+
+</html>
