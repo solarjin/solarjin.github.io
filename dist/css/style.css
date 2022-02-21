@@ -48,13 +48,19 @@
     #cssmenu {
         font-family: Montserrat, sans-serif;
         background: #333333;
+       
+    }
+    .menu-center {
+       left: 10%;
     }
     #cssmenu > ul > li {
         float: left;
+        
     }
     #cssmenu.align-center > ul {
         font-size: 0;
         text-align: center;
+        margin: auto;
     }
     #cssmenu.align-center > ul > li {
         display: inline-block;
@@ -202,6 +208,9 @@
         #cssmenu {
             width: 100%;
         }
+        .menu-center {
+            left: 0;
+         }
         #cssmenu ul {
             width: 100%;
             display: none;
@@ -268,7 +277,7 @@
             top: 22px;
             right: 17px;
             display: block;
-            height: 4px;
+            height: 8px;
             width: 20px;
             border-top: 2px solid #dddddd;
             border-bottom: 2px solid #dddddd;
@@ -279,7 +288,7 @@
             top: 16px;
             right: 17px;
             display: block;
-            height: 2px;
+            height: 1.5px;
             width: 20px;
             background: #dddddd;
             content: '';
@@ -287,7 +296,7 @@
         #cssmenu #menu-button.menu-opened:after {
             top: 23px;
             border: 0;
-            height: 2px;
+            height: 1.5px;
             width: 15px;
             background: #ffffff;
             -webkit-transform: rotate(45deg);
@@ -359,6 +368,10 @@
             display: none;
         }
     }
+
+    .header-mask {
+        z-index: 1; 
+      }
 
 
 
