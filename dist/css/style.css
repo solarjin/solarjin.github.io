@@ -720,7 +720,9 @@
     }
 
     .hero-paragraph {
-        margin: 10px 0 25px 0;
+        margin: 10px 0 65px 0;
+        font-size: 20px;
+        font-weight: 300;
     }
 
     body,
@@ -771,7 +773,7 @@
 
         h1,
         .h1 {
-            font-size: 44px;
+            font-size: 48px;
             line-height: 54px;
             letter-spacing: 0px;
         }
@@ -1676,7 +1678,7 @@
     }
 
     .hero-logo-image {
-        width: 50%;
+        width: 60%;
         padding: 40px 0;
         margin: 10px 0 20px;
         z-index: 2;
@@ -1694,7 +1696,7 @@
         }
 
         .hero-logo-image {
-            width: 50%;
+            width: 70%;
             padding: 40px 0;
             margin: 10px auto 20px;
             display: block;
@@ -2255,7 +2257,7 @@
         padding: 0;
         margin: 0;
         outline: none;
-        font-size: 16px;
+        font-size: 20px;
         color: rgb(211, 211, 211);
         line-height: 22px;
     }
