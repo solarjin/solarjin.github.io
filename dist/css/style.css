@@ -16,6 +16,10 @@
 
     }
 
+    .header-z  {
+        z-index: 100;
+    }
+
 
     #cssmenu,
     #cssmenu ul,
@@ -32,6 +36,7 @@
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
+        
     }
     #cssmenu:after,
     #cssmenu > ul:after {
@@ -1717,6 +1722,7 @@
 
     .header-logo-image {
         width: 120px;
+        margin: 10px 0;
     }
 
 
@@ -2456,6 +2462,7 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            z-index: 1;
         }
 
         .boxed-container {
@@ -2546,8 +2553,8 @@
 
             .site-footer-inner {
                 justify-content: space-between;
-                padding-top: 64px;
-                padding-bottom: 64px;
+                padding-top: 16px;
+                padding-bottom: 28px;
             }
 
             .footer-brand,
