@@ -8,7 +8,6 @@
     <title>Solid Template</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
-    <link rel="stylesheet" href="dist/css/style-menu.css">
     <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
@@ -38,7 +37,7 @@
     <div class="body-wrap">
        
 
-        <main>
+        <main class="main-marg">
 
             <section class="pricing section">
                 <div class="container-sm">
@@ -108,7 +107,8 @@
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#zatemnenie">Подключить</a>
+                                        <a class="button button-primary button-shadow button-block"
+                                        href="#zatemnenie">Положение о тарифе</a>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,8 @@
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#zatemnenie">Подключить</a>
+                                        <a class="button button-primary button-shadow button-block"
+                                        href="#zatemnenie">Положение о тарифе</a>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +174,8 @@
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#zatemnenie">Подключить</a>
+                                        <a class="button button-primary button-shadow button-block"
+                                        href="#zatemnenie">Положение о тарифе</a>
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +208,8 @@
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#zatemnenie">Подключить</a>
+                                        <a class="button button-primary button-shadow button-block"
+                                        href="#zatemnenie">Положение о тарифе</a>
                                     </div>
                                 </div>
                             </div>
@@ -239,7 +242,8 @@
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#zatemnenie">Подключить</a>
+                                        <a class="button button-primary button-shadow button-block"
+                                        href="#zatemnenie">Положение о тарифе</a>
                                     </div>
                                 </div>
                             </div>
@@ -250,62 +254,16 @@
                 </div>
             </section>
 
-            <div id="zatemnenie">
-                <div id="okno">
+           
+              <!-----------////////   Форма положения о тарифе //////////---------->
+
+              <div id="zatemnenie">
+                <div id="okno-2">
 
                     <div class="testbox">
-                        <form action="/">
-                            <h4 class="form-titel">Оставьте заявку на подключение</h4>
-
-                            <div class="item">
-                                <div class="name-item">
-                                    <input class="inplong" type="text" name="name" placeholder="ФИО" />
-                                    <input class="inpshort" id="phone" type="text"
-                                        placeholder="+7(918)-00-00-00">
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="city-item">
-                                    <select class="inplong">
-                                        <option value="" selected>Населенный пункт</option>
-                                        <option value="1">Пункт 1</option>
-                                        <option value="2">Пункт 2</option>
-                                        <option value="3">Пункт 3</option>
-                                    </select>
-                                    <input class="inplong" type="text " name="name "
-                                        placeholder="ул. Энергетиков " />
-                                    <input class="inpshort" type="text " name="name " placeholder="д.12 " />
-                                    <input class="inpshort" type="text " name="name "
-                                        placeholder="кв.23 " />
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <input class="inpshort" type="text" name="name"
-                                    placeholder="Ваш адрес электронной почты" />
-                            </div>
-                            <div class="item">
-                                <textarea class="inplong textarea-style"
-                                    placeholder="Откуда Вы узнали о нас?" rows="3"></textarea>
-                            </div>
-
-                            <input class="custom-checkbox" type="checkbox" id="politics" onclick="check();"
-                                value=" " autocomplete="off" />
-                            <label for="politics"></label>
-
-                            Нажимая на кнопку "Отправить", я даю
-                            <a href="ссылка на страницу согласия">согласие на обработку персональных
-                                данных.</a>
-
-
-
-                            <div class="btn-block">
-                                <input type="submit" name="submit"
-                                    class="submi button button-primary"" disabled=""
-                                    value=" Отправить" />
-                            </div>
-                        </form>
+                       <div class="feature-inner">
+                           <img class="price-about" src="dist/images/tp-season.jpg" alt="Logo"> </div>
+                       </div>
                         <script>
                             function check() {
                                 var submit = document.getElementsByName('submit')[0];
@@ -319,6 +277,9 @@
                     <a href="# " class="close">&#10006;</a>
                 </div>
             </div>
+
+      <!--/------------- Конец формы ---------------------/ -->
+
 
         </main>
 
