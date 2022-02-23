@@ -14,52 +14,28 @@
 </head>
 
 <body class="is-boxed has-animations">
+
+	<header>
+
+        <div id='cssmenu'>
+            <ul class="menu-center">
+                <li><a href='/index.html'>Главная</a></li>
+                <li><a href='#'>Тарифы</a>
+                    <ul>
+                        <li><a href='/price.html'>Физическим лицам</a></li>
+                        <li><a href='/business.html'>Юридическим лицам</a></li>
+                        <li><a href='/season.html'>Тариф "Сезонный"</a></li>
+                    </ul>
+                </li>
+                <li><a href='/about.html'>О компании</a></li>
+                <li><a href='/contacts.html'>Контакты</a></li>
+            </ul>
+        </div>
+
+    </header>
+	
 	<div class="body-wrap">
-		<header class="site-header">
-			<section class="ftco-section">
-
-				<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-					<div class="container">
-
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-							aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="fa fa-bars"></span> Меню
-						</button>
-						<div class="site-header-inner">
-							<div class="brand header-brand">
-								<h1 class="m-0">
-									<a href="#">
-										<img class="header-logo-image" style="margin: 0 40px 0 0; " src="dist/images/logo.png"
-											alt="Logo">
-									</a>
-								</h1>
-							</div>
-						</div>
-
-						<div class="collapse navbar-collapse" id="ftco-nav">
-							<ul class="navbar-nav mr-auto">
-								<li class="nav-item active"><a href="/solid/index.html" class="nav-link">О компании</a></li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false">Тарифы</a>
-									<div class="dropdown-menu" aria-labelledby="dropdown04">
-										<a class="dropdown-item" href="/solid/individual.html">Физическим лицам</a>
-										<a class="dropdown-item" href="/solid/business.html">Юридическим лицам</a>
-										<a class="dropdown-item" href="/solid/season.html">Тариф "Сезонный"</a>
-									</div>
-								</li>
-								<li class="nav-item"><a href="/solid/contacts.html" class="nav-link">Контакты</a></li>
-								<li class="nav-item"><a href="/solid/service-rules.html" class="nav-link">Общие положения</a>
-								</li>
-								<li class="nav-item"><a href="https://lk.intehsvyaz.ru/" style="color: rgb(255, 243, 78)"
-										class="nav-link"><b>Личный кабинет</b></a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-				<!-- END nav -->
-		</header>
-
+		
 		<main>
 
 
@@ -80,7 +56,7 @@
 									<div class="feature-icon">
 										<img src="dist/images/feature-icon-01.svg" alt="Feature 01">
 									</div>
-									<h4 class="feature-title mt-24">Позвоните нам</h4>
+									<h4 class="feature-title mt-24">Телефон</h4>
 									<p class="text-sm mb-0">Есть вопросы? Мы поможем!</p>
 									<div class="contact-phone">
 										<a href="tel:88007774967" class="contact-phone__btn">8 (800) 777-49-67</a>
@@ -92,7 +68,7 @@
 									<div class="feature-icon">
 										<img src="dist/images/feature-icon-02.svg" alt="Feature 02">
 									</div>
-									<h4 class="feature-title mt-24">Напишите нам</h4>
+									<h4 class="feature-title mt-24">Email</h4>
 									<p class="text-sm mb-0">Идеи? Предложения? Мы открыты для любых вопросов!</p>
 									<div class="contact-mail">
 										Написать на
@@ -105,12 +81,10 @@
 									<div class="feature-icon">
 										<img src="dist/images/feature-icon-03.svg" alt="Feature 03">
 									</div>
-									<h4 class="feature-title mt-24">Напишите нам</h4>
-									<p class="text-sm mb-0 ">В нашем телеграмм чате помогут разобраться с вашим
-										вопросом</p>
+									<h4 class="feature-title mt-24">Обращение</h4>
+									<p class="text-sm mb-0 ">Отправьте прямое обращение к руководству компании</p>
 									<div class="hero-cta"><a class="button button-primary contact-btn"
-											href="#zatemnenie">Оставить
-											заявку</a>
+											href="#zatemnenie-2">Отправить письмо</a>
 									</div>
 								</div>
 							</div>
@@ -118,6 +92,85 @@
 					</div>
 				</div>
 			</section>
+
+
+			  <!--------   Форма обращения к руководству -------->
+
+			  <div id="zatemnenie-2">
+				<div id="okno">
+
+					<div class="testbox">
+						<form action="/">
+							<h4 class="form-titel">Оставьте обращение руководству</h4>
+							<div class="item">
+								<div class="name-item">
+									<input class="inplong" id="phone2" type="text"
+										placeholder="+7(918)-00-00-00">
+									<input class="inplong" type="text" name="name"
+										placeholder="Номер договора" />
+								</div>
+							</div>
+
+							<div class="item">
+								<input class="inpshort" type="text" name="name"
+									placeholder="Ваш адрес электронной почты" />
+							</div>
+
+							<div class="item">
+								<div class="city-item">
+									<select class="inplong">
+										<option value="" selected>Адрес Подключения</option>
+										<option value="1">c. Лермонтово</option>
+										<option value="2">с. Тенгинка</option>
+										<option value="3">пгт. Новомихайловка</option>
+										<option value="4">с. Ольгинка</option>
+										<option value="5">ст. Вишенка</option>
+									</select>
+									<input class="inplong" type="text " name="name "
+										placeholder="ул. Энергетиков " />
+									<input class="inpshort" type="text " name="name " placeholder="д.12 " />
+									<input class="inpshort" type="text " name="name "
+										placeholder="кв.23 " />
+								</div>
+							</div>
+
+							<div class="item">
+								<textarea class="inplong textarea-style" placeholder="Сообщение"
+									rows="3"></textarea>
+							</div>
+
+
+							<input class="custom-checkbox" type="checkbox" id="politics2" onclick="check();"
+								value=" " autocomplete="off" />
+							<label for="politics2"></label>
+
+							Нажимая на кнопку "Отправить", я даю
+							<a href="ссылка на страницу согласия">согласие на обработку персональных
+								данных.</a>
+
+
+							<div class="btn-block">
+								<input type="submit" name="submit"
+									class="submi button button-primary"" disabled=""
+								value=" Отправить" />
+							</div>
+						</form>
+						<script>
+							function check() {
+								var submit = document.getElementsByName('submit')[0];
+								if (document.getElementById('politics2').checked)
+									submit.disabled = '';
+								else
+									submit.disabled = 'disabled';
+							}
+						</script>
+					</div>
+
+					<a href="# " class="close">&#10006;</a>
+				</div>
+			</div>
+
+			<!--------   Конец Форма обращения к руководству -------->
 
 		</main>
 
